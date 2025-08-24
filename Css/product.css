@@ -1,0 +1,246 @@
+.navbar
+{
+	width: 100%;
+	margin-top: 10px;
+	position: fixed;
+	opacity: 0.6;
+	z-index: 1000;
+	background-color: orange;
+}
+.nav-item
+{
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.navbar-nav
+{
+
+}
+.navbar-brand
+{
+	padding-top: 10px;
+	animation: ani 1s linear infinite;
+}
+a
+{
+	text-decoration: none;
+}
+@keyframes ani 
+{
+    0%
+    {
+    	color: black;
+    }
+    20%
+    {
+         color: red;
+    }
+    40%
+    {
+         color: yellow;
+    }
+    80%
+    {
+         color: yellowgreen;
+    }
+    100%
+    {
+         color: hotpink;
+    }
+}
+#navbarNavDropdown
+{
+	margin-left: 800px;
+}
+.navbar-nav
+{
+	gap: 5px;
+}
+.nav-link:hover
+{
+	color: blue;
+	transition: all 0.7s linear;
+	border-bottom: 1px solid black;
+	background: whitesmoke;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+
+.cart
+{
+	width: 20px;
+}
+#signbtn
+{
+	margin-top: 5px;
+	padding: 5px 20px;
+}
+#signbtn:hover
+{
+	border-radius: 10px;
+	background: blue;
+	transition: 0.7s;
+}
+.container
+{
+	position: relative;
+	top:100px;
+	text-align: center;
+}
+.item h1
+{
+	color: red;
+	border-bottom: 1px solid grey;
+}
+.pro-1
+{
+	border: 1px solid black;
+     width: 250px;
+     padding: 10px;
+     margin: 15px;
+     margin-top: 100px;
+     margin-left: 50px;
+     float: left;
+     text-align: center;
+     border-radius: 10px;
+     box-shadow: 2px 2px 12px black;
+}
+.pimg
+{
+	height: 200px;
+}
+.pro-1:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+
+.pro-2
+{
+	border: 1px solid black;
+        width: 250px;
+        padding: 10px;
+        margin: 15px;
+        margin-top: 100px;
+        margin-left: 50px;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 12px black;
+}
+.pro-2:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.pro-3
+{
+	border: 1px solid black;
+        width: 250px;
+        padding: 10px;
+        margin: 15px;
+        margin-top: 100px;
+        margin-left: 50px;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 12px black;
+}
+.pro-3:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+#menuactive.active
+{
+	color: red;
+	transition: all 0.7s linear;
+	border-bottom: 1px solid black;
+	background: whitesmoke;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+.banner img
+{
+	width: 100%;
+	position: relative;
+	top: 10px;
+}
+
+.btn
+{
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+}
+.footer
+{
+	position: relative;	
+	top: 600px;
+}
+/*admin panel view*/
+.product
+{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 90px;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px black;
+}
+.product:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.product img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.product h3
+{
+    margin: 10px 0 5px;
+}
+.product p
+{
+    margin: 5px 0;
+}
+.product1
+{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+/*    margin-top: 200px;*/
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px black;
+    position: relative;
+    top: 300px;
+}
+.product1:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.product1 img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.product1 h3
+{
+    margin: 10px 0 5px;
+}
+.product1 p
+{
+    margin: 5px 0;
+}

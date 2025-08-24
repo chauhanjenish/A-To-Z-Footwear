@@ -1,0 +1,136 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+a
+{
+	text-decoration: none;
+}
+.navbar
+{
+	width: 100%;
+	margin-top: 10px;
+	position: fixed;
+	opacity: 0.6;
+	z-index: 1000;
+	background-color: orange;
+}
+.navbar-nav
+{
+	padding-left: 850px;
+}
+.nav-item
+{
+	color: black;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.navbar-brand
+{
+	padding-top: 10px;
+	animation: ani 1s linear infinite;
+}
+a
+{
+	text-decoration: none;
+}
+@keyframes ani 
+{
+    0%
+    {
+    	color: black;
+    }
+    20%
+    {
+         color: red;
+    }
+    40%
+    {
+         color: yellow;
+    }
+    80%
+    {
+         color: yellowgreen;
+    }
+    100%
+    {
+         color: hotpink;
+    }
+}
+.navbar-nav
+{
+	gap: 25px;
+}
+.nav-link:hover
+{
+	color: blue;
+	transition: all 0.7s linear;
+	border-bottom: 1px solid black;
+	background: whitesmoke;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+.cart
+{
+	width: 20px;
+}
+#menuactive.active
+{
+	color: red;
+	transition: all 0.7s linear;
+	border-bottom: 1px solid black;
+	background: whitesmoke;
+	border-radius: 5px;
+	opacity: 0.9;
+}
+.banner
+{
+	width: auto;
+	padding-left: 150px;
+	padding-top: 20px;
+}
+.about
+{
+	margin-top: 10px;
+	padding:10px;
+	font-size: 30px;
+	background: black;
+	color: whitesmoke;
+}
+.about strong
+{
+	color: blueviolet;
+}
+.mission
+{	width: 20%;
+	height: 400px;
+	text-align: center;
+	padding: 20px;
+	text-align: center;
+	padding-top: 10px;
+	background: black;
+	color: white;
+	margin-bottom: 20px;
+	position: relative;
+	left: 450px;
+	top: 20px;
+}
+.mission img
+{
+	padding-top: 50px;
+	display: none;
+}
+.why
+{
+	width: 20%;
+	height: 300px;
+	background: white;
+	color: black;
+	padding: 20px;
+	position: relative;
+	left: 200px;
+	top: -80px;
+}
+ch

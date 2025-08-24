@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Footer Styling */
+.footer {
+    color: black;
+    opacity: 0.7;
+    background-color: white;
+    padding: 30px 10%;
+    border-top: 1px solid #ddd;
+}
+
+/* Social Media Section */
+.social-media {
+    text-align: center;
+    margin: 20px 0;
+}
+.social-media img
+{
+    color: white;
+}
+.social-media a {
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+}
+
+/* Text Section */
+.text-section {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.text-section p {
+}
+
+/* Links Section */
+.links {
+    display: flex;
+
+    margin: 30px 0;
+}
+
+.link-section {
+    width: 30%;
+}
+
+.link-section h2,
+.link-section h5 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.link-section ul {
+    list-style: none;
+}
+
+.link-section ul li {
+    margin-bottom: 10px;
+}
+
+.link-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.link-section ul li a:hover {
+    text-decoration: underline;
+    transition: all 0.5s;
+    color: blue;
+}
+
+/* Map Section */
+.map {
+    margin-top: 30px;
+}
+
+.map iframe {
+    border: none;
+}
+
+/* Copyright Section */
+.copyright {
+    background-color: rgba(0, 0, 0, 0.05);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.copyright h4 {
+    margin-bottom: 10px;
+}
+
+.copyright h5 {
+    color: black;
+}

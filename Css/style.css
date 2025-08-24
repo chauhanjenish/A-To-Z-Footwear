@@ -1,0 +1,360 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+
+}
+/*header image*/
+.ani_img
+{
+    width: 200px;
+}
+.images img
+{
+    position: relative;
+    top: 400px;
+    width: 300px; 
+   height: 300px; 
+   margin-top: 200px;
+}
+/*header part css*/
+/*.btn
+{
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    border: 1px solid black;
+}*/
+.Item_Heading
+{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    text-shadow: 2px 2px 4px blue;
+    animation: ani 2s ease-in infinite;
+    padding-top: 50px;
+}
+@keyframes ani 
+{
+    0%
+    {
+         text-shadow: 2px 2px 4px blue;
+    }
+    20%
+    {
+         text-shadow: 2px 2px 4px black;
+    }
+    40%
+    {
+         text-shadow: 2px 2px 4px green;
+    }
+    80%
+    {
+         text-shadow: 2px 2px 4px yellow;
+    }
+    100%
+    {
+         text-shadow: 2px 2px 4px red;
+    }
+}
+.product_1
+{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 100px;
+    margin-left: 30px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px black;
+}
+.product_1:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+
+.product_2
+{
+     border: 1px solid black;
+        width: 250px;
+        padding: 10px;
+        margin: 15px;
+        margin-top: 100px;
+        margin-left: 50px;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 12px black;
+}
+.product_2:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.product_3
+{
+      border: 1px solid black;
+        width: 250px;
+        padding: 10px;
+        margin: 15px;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 60px;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 12px black;
+}
+.product_3:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.product_4
+{
+        border: 1px solid black;
+        width: 250px;
+        padding: 10px;
+        margin-top: 100px;
+        margin-left: 20px;
+        float: left;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 2px 2px 12px black;
+}
+.product_4:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.Product_img
+{
+    height: 200px;
+/*    width: auto;*/
+}
+.footer
+{
+    color: aliceblue;
+    margin-top: 100px;
+    background: #000;
+}
+/* form css start */
+.frm
+{
+    text-align: center;
+}
+#form
+{
+    position:absolute;
+    left: 500px;
+    top: 200px;
+    width: 500px;
+    display: none;
+    background-color: aliceblue;
+    padding: 100px;
+    opacity: 0.8;
+    box-shadow: 10px 14px 50px black;
+    border-radius: 2%;
+}
+input
+{
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+}
+.icon
+{
+    margin-right: 5px;
+    margin-top: 2px;
+    height: 20px;
+}
+#btn
+{
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    background: blue;
+    border: 1px solid black;
+
+}
+.button
+{
+    margin: 10px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 10%;
+    box-shadow: 8px 8px 29px black;
+}
+.button:hover
+{
+    background: blue;
+    color: white;
+    transition: all 0.5s linear;
+    padding: 10px 40px;
+}
+#loginbtn
+{
+    margin-left: 10px;
+    font-size: 15px;
+    border: none;
+    color: blue;
+    
+}
+#loginbtn:hover
+{
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: white;
+    background: blue;
+    transition: all 0.5s linear;
+}
+.close
+{
+    position: absolute;
+    left: 450px;
+    top: 5px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#Login
+{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.Login
+{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+/* Login Form */
+#loginform
+{
+    position:absolute;
+    background-color: skyblue;
+    opacity: 0.8;
+    display: none;
+    left: 550px;
+    top: 300px;
+    padding: 50px;    
+}
+.loginbutton
+{
+    margin: 10px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    margin-left: 60px;
+    background-color: #fff;
+    border-radius: 10%;
+    box-shadow: 8px 8px 29px black;
+}
+.loginbutton:hover
+{
+    background: blue;
+    color: white;
+    transition: all 0.5s linear;
+    padding: 10px 40px;
+}
+#closebtn
+{
+    position: relative;
+    left: 260px;
+    top: -109px;
+}
+.password 
+{
+    margin-left: 15px;
+}
+.icon1
+{
+    padding-left: 20px;
+}
+/*Admin upload view*/
+.product
+{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 90px;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px black;
+}
+.product:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.product img
+{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.product h3
+{
+    margin: 10px 0 5px;
+}
+.product p
+{
+    margin: 5px 0;
+}
+.btn
+{
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    margin-top: 10px;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+}
+.product1
+{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 90px;
+    margin-left: 50px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px black;
+}
+.product1:hover
+{
+    box-shadow: 5px 5px 15px black;
+}
+.product1 img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+.product1 h3
+{
+    margin: 10px 0 5px;
+}
+.product1 p
+{
+    margin: 5px 0;
+}
+.video
+{
+    width: 40%;
+}
+.video video
+{
+    width: 100%;
+    position: relative;
+    left: 400px;
+}
